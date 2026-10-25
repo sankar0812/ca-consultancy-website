@@ -1,0 +1,15 @@
+.industries-banner { background: var(--mist); padding-block: clamp(2rem, 5vw, 3.5rem); }
+.industries-banner__image { aspect-ratio: 21 / 8; max-height: 22rem; width: 100%; }
+@media (max-width: 640px) { .industries-banner__image { aspect-ratio: 16 / 9; } }
+
+.industry-row { display: grid; gap: 1.5rem; padding-block: clamp(2.25rem, 5vw, 3.75rem); border-top: 1px solid var(--line); }
+.industry-row:last-child { border-bottom: 1px solid var(--line); }
+.industry-row h2 { font-size: clamp(1.75rem, 3.6vw, 2.6rem); max-width: 14ch; }
+.industry-row__body > p { color: var(--muted); font-size: 1.1rem; }
+.industry-row__label { margin-top: 1.75rem; font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; letter-spacing: 0; color: var(--gold-700); }
+.industry-row ul { margin-top: 0.85rem; display: grid; gap: 0.55rem; }
+@media (min-width: 900px) {
+  .industry-row { grid-template-columns: 0.8fr 1.2fr; gap: 5rem; }
+  .industry-row h2 { position: sticky; top: calc(var(--header-h) + 2rem); align-self: start; }
+}
+@media (min-width: 1100px) { .industry-row ul { grid-template-columns: 1fr 1fr; gap: 0.7rem 2rem; } }

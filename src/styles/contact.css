@@ -1,0 +1,14 @@
+.contact__grid { display: grid; gap: 3rem; align-items: start; }
+.contact__details h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.contact__details dl { margin-top: 1.75rem; border-top: 1px solid var(--line); }
+.contact__details dl > div { display: grid; gap: 0.3rem; padding-block: 1.1rem; border-bottom: 1px solid var(--line); }
+.contact__details dt { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; color: var(--navy-900); }
+.contact__details dt svg { color: var(--gold-700); }
+.contact__details dd { color: var(--muted); padding-left: 2rem; word-break: break-word; }
+.contact__details dd a { text-decoration-color: var(--gold-500); text-underline-offset: 3px; }
+.contact__form { background: var(--white); border: 1px solid var(--line); border-top: 4px solid var(--gold-500); box-shadow: var(--shadow-lg); padding: clamp(1.5rem, 4vw, 3rem); }
+.contact__form h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.contact__form > p { margin: 0.5rem 0 1.75rem; color: var(--muted); }
+@media (min-width: 1000px) { .contact__grid { grid-template-columns: 0.75fr 1.25fr; gap: 5rem; } }
+
+.map iframe { display: block; width: 100%; height: clamp(18rem, 40vw, 28rem); border: 0; }

@@ -1,0 +1,22 @@
+.navbar { position: sticky; top: 0; z-index: 100; background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); transition: box-shadow 0.3s; }
+.navbar--scrolled { box-shadow: 0 8px 24px -16px rgba(8, 18, 39, 0.4); }
+.navbar__inner { height: var(--header-h); display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.navbar__nav { display: none; }
+.navbar__list { display: flex; align-items: center; gap: clamp(1rem, 2.2vw, 2rem); }
+.navbar__link { position: relative; display: inline-flex; padding: 0.5rem 0; text-decoration: none; font-weight: 500; font-size: 0.98rem; color: var(--ink); transition: color 0.2s; }
+.navbar__link:hover, .navbar__link.is-active { color: var(--navy-900); }
+.navbar__indicator { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--gold-500); }
+.navbar__link--cta { padding: 0.65rem 1.25rem; background: var(--navy-900); color: var(--white); border-radius: var(--radius); font-weight: 600; transition: background-color 0.2s; }
+.navbar__link--cta:hover, .navbar__link--cta.is-active { background: var(--navy-700); color: var(--white); }
+.navbar__toggle { display: grid; place-items: center; width: 48px; height: 48px; background: none; border: 1px solid var(--line); border-radius: var(--radius); color: var(--navy-900); cursor: pointer; }
+@media (min-width: 960px) { .navbar__nav { display: block; } .navbar__toggle { display: none; } }
+@media (max-width: 380px) { .logo__descriptor { display: none; } .logo__name { font-size: 1.1rem; } }
+
+/* ---------- Mobile navigation ---------- */
+.mobile-nav__backdrop { position: fixed; inset: var(--header-h) 0 0 0; z-index: 90; background: rgba(8, 18, 39, 0.55); }
+.mobile-nav { position: fixed; top: var(--header-h); right: 0; bottom: 0; z-index: 95; width: min(100%, 24rem); display: flex; flex-direction: column; justify-content: space-between; padding: 1.5rem var(--gutter) 2rem; background: var(--navy-900); overflow-y: auto; }
+.mobile-nav__link { display: block; padding: 1rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.14); font-family: var(--font-display); font-size: 1.6rem; color: var(--white); text-decoration: none; }
+.mobile-nav__link.is-active { color: var(--gold-300); }
+.mobile-nav__contact { display: grid; gap: 0.4rem; margin-top: 2rem; color: var(--muted-on-navy); }
+.mobile-nav__contact a { color: var(--white); text-decoration: none; }
+@media (min-width: 960px) { .mobile-nav, .mobile-nav__backdrop { display: none; } }
