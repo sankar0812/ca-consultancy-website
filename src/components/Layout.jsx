@@ -4,6 +4,7 @@ import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import ScrollToTop from './ScrollToTop.jsx';
 import LoadingState from './LoadingState.jsx';
+import WhatsAppButton from './WhatsAppButton.jsx';
 
 export default function Layout() {
   return (
@@ -19,6 +20,7 @@ export default function Layout() {
       </main>
       <Footer />
       <ScrollToTop />
+      <WhatsAppButton />
     </>
   );
 }

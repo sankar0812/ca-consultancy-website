@@ -40,3 +40,115 @@
 .why__item svg { color: var(--gold-300); margin-top: 0.2rem; }
 .why__item p { margin-top: 0.4rem; }
 @media (min-width: 960px) { .why__grid { grid-template-columns: 0.8fr 1.2fr; gap: 5rem; } .why__intro { position: sticky; top: calc(var(--header-h) + 2rem); } }
+
+/* ---------- Compliance Calendar Tracker ---------- */
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.8rem;
+  background: rgba(192, 154, 82, 0.12);
+  color: var(--gold-700);
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.85rem;
+}
+.compliance-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.2rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: var(--navy-900);
+  box-shadow: var(--shadow-sm);
+}
+.compliance-note svg {
+  color: var(--gold-500);
+  flex-shrink: 0;
+}
+.compliance-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .compliance-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .compliance-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.compliance-card {
+  background: var(--white);
+  padding: 1.75rem 1.5rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s;
+}
+.compliance-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--gold-500);
+}
+.compliance-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+}
+.compliance-card__date {
+  display: flex;
+  flex-direction: column;
+}
+.compliance-card__day {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--navy-900);
+  letter-spacing: -0.04em;
+}
+.compliance-card__month {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--gold-700);
+  text-transform: uppercase;
+  margin-top: 0.2rem;
+}
+.compliance-card__badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  background: var(--mist);
+  color: var(--navy-900);
+}
+.compliance-card__badge--gst {
+  background: #e8f4fd;
+  color: #0b63b8;
+}
+.compliance-card__badge--tds {
+  background: #fef0e6;
+  color: #bf4d00;
+}
+.compliance-card__badge--incometax {
+  background: #eaf8f0;
+  color: #177245;
+}
+.compliance-card__title {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  color: var(--navy-900);
+}
+.compliance-card__desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0;
+}

@@ -8,9 +8,10 @@ export const siteConfig = {
   siteUrl: (env.VITE_SITE_URL || 'https://www.example.com').replace(/\/$/, ''),
   ogImage: '/og-image.png',
 
-  // Placeholders: replace with the firm's confirmed details.
+  // Firm details
   email: env.VITE_FIRM_EMAIL || 'contact@your-firm-domain.com',
-  phone: env.VITE_FIRM_PHONE || '+91 00000 00000',
+  phone: env.VITE_FIRM_PHONE || '+91 93424 26390',
+  whatsapp: env.VITE_FIRM_WHATSAPP || '919342426390',
   address: env.VITE_FIRM_ADDRESS || 'Office address to be supplied by the firm',
   hours: env.VITE_FIRM_HOURS || 'Monday to Friday, 10:00 am to 6:00 pm',
 

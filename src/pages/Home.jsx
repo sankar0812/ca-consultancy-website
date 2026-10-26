@@ -9,6 +9,7 @@ import ServiceCard from '../components/ServiceCard.jsx';
 import IndustrySection from '../components/IndustrySection.jsx';
 import ProcessSteps from '../components/ProcessSteps.jsx';
 import CTASection from '../components/CTASection.jsx';
+import ComplianceCalendar from '../components/ComplianceCalendar.jsx';
 import useSeo from '../hooks/useSeo.js';
 import { services } from '../data/services.js';
 import { industries } from '../data/industries.js';
@@ -127,6 +128,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <ComplianceCalendar />
 
       <section className="section section--navy why" aria-labelledby="why-title">
         <div className="container why__grid">
