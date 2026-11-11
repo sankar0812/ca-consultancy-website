@@ -1,11 +1,11 @@
 /* ---------- Logo ---------- */
-.logo { display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--navy-900); min-width: 0; }
-.logo__mark { width: 42px; height: 42px; flex: none; color: var(--navy-900); }
+.logo { display: inline-flex; align-items: center; gap: 0.85rem; text-decoration: none; color: var(--navy-900); min-width: 0; }
+.logo__image { width: 44px; height: 44px; object-fit: contain; flex: none; border-radius: var(--radius-sm); }
 .logo__text { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
-.logo__name { font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.logo__descriptor { font-size: 0.8rem; color: var(--muted); }
+.logo__name { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; letter-spacing: -0.02em; }
+.logo__descriptor { font-size: 0.78rem; color: var(--muted); font-weight: 500; }
 .logo--light { color: var(--white); }
-.logo--light .logo__mark { color: var(--navy-700); }
+.logo--light .logo__image { filter: brightness(1.05); }
 .logo--light .logo__descriptor { color: var(--muted-on-navy); }
 
 /* ---------- Image slot and artwork ---------- */
@@ -206,4 +206,14 @@
 @media (max-width: 600px) {
   .whatsapp-float__text { display: none; }
   .whatsapp-float { padding: 0.85rem; }
+}
+
+@media (max-width: 640px) {
+  .enquiry-form__submit { width: 100%; justify-self: stretch; }
+  .cta__actions .btn, .page-hero__actions .btn { width: 100%; }
+}
+@media (max-width: 480px) {
+  .service-card { padding: 1.6rem 1.25rem 1.5rem; }
+  .industry-tabs__panel { padding: 1.25rem; min-height: auto; }
+  .page-hero { padding-block: clamp(2.5rem, 6vw, 4rem); }
 }
