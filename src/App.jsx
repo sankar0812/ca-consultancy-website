@@ -5,6 +5,7 @@ import Layout from './components/Layout.jsx';
 
 const Home = lazy(() => import('./pages/Home.jsx'));
 const About = lazy(() => import('./pages/About.jsx'));
+const Team = lazy(() => import('./pages/Team.jsx'));
 const Services = lazy(() => import('./pages/Services.jsx'));
 const Industries = lazy(() => import('./pages/Industries.jsx'));
 const Resources = lazy(() => import('./pages/Resources.jsx'));
@@ -19,6 +20,7 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="team" element={<Team />} />
           <Route path="services" element={<Services />} />
           <Route path="industries" element={<Industries />} />
           <Route path="resources" element={<Resources />} />
