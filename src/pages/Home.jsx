@@ -55,32 +55,17 @@ export default function Home() {
         <div className="container hero__grid">
           <motion.div className="hero__copy" variants={stagger} initial="hidden" animate="show">
             <div className="hero__badge">
-              <span>Trusted Chartered Accountants</span>
+              <span>Chartered Accountant, Tenkasi</span>
               <span className="hero__badge-dot" />
               <span>Available 7 Days a Week</span>
             </div>
-            <motion.h1 variants={rise}>Strategic financial advisory & precision compliance.</motion.h1>
+            <motion.h1 variants={rise}>Accounting, tax and compliance support</motion.h1>
             <motion.p className="hero__lead" variants={rise}>
               {siteConfig.name} empowers businesses, founders, and enterprises with accounting, income tax, GST, audit, and ROC compliance — delivering clarity and confidence every day of the week.
             </motion.p>
             <motion.div className="hero__actions" variants={rise}>
               <Button to="/services" variant="gold">Explore Services</Button>
-              <Button to="/contact#enquiry" variant="outline-light">Book Free Consultation</Button>
-            </motion.div>
-
-            <motion.div className="hero__stats" variants={rise}>
-              <div className="hero__stat">
-                <span className="hero__stat-num">500+</span>
-                <span className="hero__stat-label">Clients Advised</span>
-              </div>
-              <div className="hero__stat">
-                <span className="hero__stat-num">100%</span>
-                <span className="hero__stat-label">Statutory Compliance</span>
-              </div>
-              <div className="hero__stat">
-                <span className="hero__stat-num">7 Days</span>
-                <span className="hero__stat-label">Weekly Advisory</span>
-              </div>
+              <Button to="/contact#enquiry" variant="outline-light">Book a Consultation</Button>
             </motion.div>
           </motion.div>
 

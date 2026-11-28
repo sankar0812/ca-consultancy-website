@@ -26,7 +26,7 @@ const complianceDates = [
     day: '15',
     month: 'Quarterly',
     title: 'Advance Tax Installment',
-    desc: 'Applicable for individual and corporate tax assesses with tax liability > ₹10,000.',
+    desc: 'Applicable for individual and corporate tax assessees with tax liability > ₹10,000.',
     badge: 'Income Tax',
   },
 ];

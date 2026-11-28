@@ -35,10 +35,6 @@ export default function About() {
               We keep our advice practical and our explanations plain, and we put important points in
               writing. That way you always know where you stand and what comes next.
             </p>
-            <p className="placeholder-note">
-              [Placeholder: add the firm&rsquo;s own introduction here. Details such as year of
-              establishment, partners and qualifications should be supplied and confirmed by the firm.]
-            </p>
           </Reveal>
           <Reveal delay={0.1}>
             <ImageSlot

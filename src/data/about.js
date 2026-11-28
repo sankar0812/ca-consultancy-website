@@ -1,11 +1,11 @@
 import { ShieldCheck, Lock, Target, Eye } from 'lucide-react';
 
-// CLIENT TO UPDATE: replace the placeholder statements with the firm's own words.
+// Firm mission, vision, values and client approach
 export const about = {
   mission:
-    'To give clients accurate, timely and understandable financial guidance, so they can run their affairs with confidence. [Placeholder: replace with the firm\u2019s mission statement.]',
+    'To give clients accurate, timely and understandable financial guidance, so they can run their affairs with confidence.',
   vision:
-    'To be a practice that clients trust for the long term, known for careful work and honest advice. [Placeholder: replace with the firm\u2019s vision statement.]',
+    'To be a practice that clients trust for the long term, known for careful work and honest advice.',
 };
 
 export const values = [

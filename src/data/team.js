@@ -10,15 +10,13 @@ export const teamMembers = [
     workExperience: [
       'Proprietor at Shanmugavel G, Chartered Accountant (Tenkasi) – Handling Audit, Income Tax, GST compliance and advisory for individuals, firms, companies and MSMEs, including corporate & LLP incorporations and certifications.',
       'Associate – Indirect Taxation at Price Waterhouse & Co LLP (PwC India), Bengaluru – Delivered indirect tax engagements for Fortune 500 companies and multinationals across technology and financial services; performed compliance health checks, risk mitigations, and automated Excel workpapers reducing manual effort by over 75%.',
-      'Articled Assistant at Paul & Aravind LLP (35-year-old CA firm, 200+ clients across four states) – Performed statutory and tax audits, conducted physical stock verification for a listed entity, and led the FP&A function for a leading ₹500 Cr retail company with 70+ stores across four states.',
+      'Articled Assistant at KVK and Associates LLP (Formerly known as Paul and Aravind LLP – 35 years of legacy, 200+ clients across four branches) in Bengaluru & Chennai – Performed statutory and tax audits, conducted physical stock verification for a listed entity, and led the FP&A function for a ₹500 Cr retail company with 70+ stores across four states.',
     ],
-    alumni: [
+    qualifications: [
       'Chartered Accountant – Associate Member of the Institute of Chartered Accountants of India (ICAI, 2025 – Certificate of Practice held).',
-      'Completed Class XII schooling from Dharani CBSE School, Vasudevanallur (2019).',
-      'Completed Class X schooling from SPV CBSE School, Courtallam (2017).',
     ],
     awardsAndAchievements: [
-      'Conducted a 1-week GST training programme for college professors at Madurai Kamaraj University under the Tamil Nadu Government\'s prestigious "Naan Mudhalvan" initiative.',
+      'Conducted a 1-week GST training programme for college professors at Madurai Kamaraj University under the Tamil Nadu Government\'s "Naan Mudhalvan" initiative.',
       'Delivered a technical session on indirect taxes at PwC India to an audience including senior directors and partners.',
       'Awarded 3rd Best Speaker in the 15-day MCS programme (May 2024); delivered sessions on GST Annual Returns, Income Tax Returns and Accounting Standards for 3 consecutive years.',
       'Received the "Reconciliation Expert" and "Client Care Champion" awards for quality and client service excellence.',
@@ -27,24 +25,22 @@ export const teamMembers = [
   },
   {
     id: 'makhima',
-    name: 'CA Makhima',
-    designation: 'CA Intermediate | Audit & Indirect Taxation Specialist',
+    name: 'Makhima',
+    designation: 'CA Finalist - Audit & Indirect Taxation Specialist',
     monogram: 'MK',
     aboutMe:
-      'A dedicated audit and tax professional with extensive experience in Indirect Taxation, GST litigation, multi-location stock audits, and financial analysis. Experienced in managing end-to-end GST compliance for entities with ₹400+ Crore turnover, representing matters before GST authorities, and leading inventory verification for multinational retail chains.',
+      'A dedicated audit and tax professional with extensive experience in Indirect Taxation, GST litigation, multi-location stock audits, and financial analysis. Experienced in managing end-to-end GST compliance for entities with ₹400+ Crore turnover, representing matters before GST authorities, and managing inventory verification for multinational retail chains.',
     workExperience: [
       'Article Assistant at KVK and Associates LLP (Formerly known as Paul and Aravind LLP – 35 years of legacy, 200+ clients across four branches) in Bengaluru & Chennai.',
       'Handled end-to-end GST compliance and return filings including GSTR-1, GSTR-3B, GSTR-9 and 9C for a ₹400+ crore turnover company.',
       'Drafted detailed replies in GST litigation matters from ASMT-10 to APL-01 stage, resulting in dropping of proceedings in multiple cases, and attended personal hearings before GST authorities.',
-      'Conducted 30+ physical stock audits for a leading multinational retail group in eyewear and watch segment, supervising a 5-member team.',
-      'Prepared and maintained MIS reports and store-wise budgets for 70+ retail stores of a leading watch retail chain.',
+      'Conducted 30+ physical stock audits for a multinational retail group in eyewear and watch segment, supervising a 5-member team.',
+      'Prepared and maintained MIS reports and store-wise budgets for 70+ retail stores of a watch retail chain.',
       'Handled MCA corporate compliances (AOC-4, MGT-7, ADT-1, DPT-3, DIR-3), Form 15CA & 15CB, and quarterly financial statements.',
     ],
-    alumni: [
-      'CA Intermediate cleared (ICAI, May 2023) with Exemption in 3 Subjects (Score: 423/800).',
-      'CA Foundation cleared with Distinction (ICAI, Dec 2020 – Score: 242/400).',
-      'Completed Class XII from Literacy Mission Matric Hr. Sec. School (Secured Centum in Accountancy – Score: 570/600).',
-      'Completed Class X from Literacy Mission Matric Hr. Sec. School (Recipient of Kamarajar Award – 3rd Rank in School).',
+    qualifications: [
+      'CA Intermediate cleared (ICAI, May 2023) with Exemption in 3 Subjects.',
+      'CA Foundation cleared with Distinction (ICAI, Dec 2020).',
     ],
     awardsAndAchievements: [
       'Conducted a 1-week training program on GST at Madurai Kamaraj University for college professors under Tamil Nadu "Naan Mudhalvan" Scheme.',
@@ -63,26 +59,23 @@ export const teamMembers = [
     aboutMe:
       'A detail-oriented CA Finalist with proven hands-on experience in Financial Planning & Budgeting, MIS reporting, financial consolidation, statutory tax compliance, and audit engagements. Specializes in designing automated Excel solutions using Power Query, multi-entity financial consolidation for foreign entities, and reviewing corporate statutory compliance for listed enterprises.',
     workExperience: [
-      'Article Assistant at Paul & Aravind LLP (Feb 2024 – Feb 2026) – Handled Financial Planning, MIS, Budgeting, Audit, and Tax Compliance engagements.',
+      'Article Assistant at KVK and Associates LLP (Formerly known as Paul and Aravind LLP – 35 years of legacy, 200+ clients across four branches) in Bengaluru & Chennai (Feb 2024 – Feb 2026) – Handled Financial Planning, MIS, Budgeting, Audit, and Tax Compliance engagements.',
       'Designed automated Excel tools (using Power Query) for budget preparation, daily, weekly, and monthly reporting, significantly boosting data consolidation accuracy and speed.',
-      'Prepared and analyzed monthly sales and contribution margins for a leading watch retail chain having a ₹400 Cr turnover.',
+      'Prepared and analyzed monthly sales and contribution margins for a watch retail chain having a ₹400 Cr turnover.',
       'Consolidated financial data and prepared comprehensive MIS reports for foreign companies across 6–9 international entities adhering to strict reporting timelines.',
-      'Reviewed XBRL tagging files for Infosys Limited (listed company) and its subsidiaries to ensure strict compliance with statutory reporting standards.',
+      'Reviewed XBRL tagging files for a listed IT company and its subsidiaries to ensure strict compliance with statutory reporting standards.',
       'Prepared, reviewed, and filed Income Tax returns, GST compliance (GSTR-1, GSTR-3B, GSTR-9 & 9C), Tax Audit forms (3CA/3CB-3CD), and Transfer Pricing forms (3CEB).',
       'Assisted in Statutory & Internal Audits by reconciling ledger balances, examining financial statements, and executed physical stock verifications for listed retail companies.',
     ],
-    alumni: [
+    qualifications: [
       'CA Finalist – The Institute of Chartered Accountants of India (ICAI).',
-      'CA Inter Group 2 Cleared (ICAI, Nov 2023 – Score: 244/400, 61.00%).',
-      'CA Inter Group 1 Cleared (ICAI, May 2023 – Score: 247/400, 61.75%).',
-      'CA Foundation Cleared (ICAI, May 2022 – Score: 227/400, 56.75%).',
-      'Completed Class 12 (MEC) from Board of Intermediate Education, AP (2022 – Score: 920/1000, 92.00%).',
-      'Completed Class 10 from Board of Secondary Education, AP (2020 – Score: 586/600, 97.67%).',
+      'CA Inter Group 2 Cleared (ICAI, Nov 2023).',
+      'CA Inter Group 1 Cleared (ICAI, May 2023).',
+      'CA Foundation Cleared (ICAI, May 2022).',
     ],
     awardsAndAchievements: [
       'Core Competencies: Financial Analysis & Problem Solving, Advanced Microsoft Excel & Power Query, ERP Systems & Finalyzer Tool, and MIS Reporting & Multi-entity Consolidation.',
       'Developed Standard Operating Procedures (SOPs) and internal review mechanisms to streamline book-keeping and reporting clarity for accounting teams.',
-      'Achieved academic distinction with 97.67% in Class 10 and 92.00% in Class 12 (MEC).',
     ],
   },
 ];

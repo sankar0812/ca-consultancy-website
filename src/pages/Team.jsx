@@ -8,10 +8,10 @@ import '../styles/team.css';
 
 export default function Team() {
   useSeo({
-    title: 'Our Team | Chartered Accountants & Advisors',
+    title: 'Our Team | Shanmugavel G, Chartered Accountant',
     description: `Meet our team at ${siteConfig.name}. Practicing Chartered Accountants with Big 4 and corporate tax, audit, and compliance experience.`,
     keywords:
-      'Chartered Accountants Team, CA Shanmugavel G, CA Makhima, Tax Advisors, Audit Experts',
+      'Chartered Accountants Team, CA Shanmugavel G, Makhima, Tax Advisors, Audit Experts',
   });
 
   return (
@@ -33,7 +33,7 @@ export default function Team() {
                     ) : (
                       <>
                         <span className="kvk-portrait-frame__monogram">{member.monogram}</span>
-                        <span className="kvk-portrait-frame__caption">{siteConfig.name}</span>
+                        <span className="kvk-portrait-frame__caption">{member.name}</span>
                       </>
                     )}
                   </div>
@@ -41,7 +41,7 @@ export default function Team() {
                   <span className="kvk-left-col__badge">{member.designation}</span>
                 </Reveal>
 
-                {/* Right Column: Narrative + KVK Experience / Alumni / Awards */}
+                {/* Right Column: Narrative + KVK Experience / Qualifications / Awards */}
                 <div className="kvk-right-col">
                   {/* About me */}
                   <Reveal className="kvk-block" delay={0.15}>
@@ -61,13 +61,13 @@ export default function Team() {
                     </ul>
                   </Reveal>
 
-                  {/* Alumni */}
+                  {/* Qualifications */}
                   <Reveal className="kvk-block" delay={0.25}>
-                    <h3 className="kvk-block__title">Alumni</h3>
+                    <h3 className="kvk-block__title">Qualifications</h3>
                     <ul className="kvk-block__list">
-                      {member.alumni.map((alum, aIdx) => (
-                        <li key={aIdx} className="kvk-block__item">
-                          {alum}
+                      {(member.qualifications || member.alumni || []).map((qual, qIdx) => (
+                        <li key={qIdx} className="kvk-block__item">
+                          {qual}
                         </li>
                       ))}
                     </ul>
@@ -92,7 +92,7 @@ export default function Team() {
       </div>
 
       <CTASection
-        title="Partner With Experienced Financial Advisors"
+        title="Talk to Us About Your Requirements"
         text="Discuss your tax planning, business structuring, or statutory audit requirements with our team."
         actions={[
           { label: 'Schedule Consultation', to: '/contact#enquiry', variant: 'gold' },
